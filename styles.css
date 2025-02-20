@@ -30,6 +30,11 @@ body{
     margin: 20px;
     background-color: lavender;
 }
+.box:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform:scale(1.09);
+}
 .row button {
     background-color: rgb(128, 128, 214);
     font-size: 20px;
